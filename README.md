@@ -10,6 +10,7 @@ This project uses a machine learning model to predict the total score in an IPL 
    git clone https://github.com/GJ-sanjay/ipl-score-prediction.git
    cd ipl-score-prediction
 2. Usage guide:
+   ```bash
    ~ just pip install the requirements if you're using google colab this will make it much easier. 
    ~ I've also given the dataset (.csv) file to use.
    ~ why use huber loss? It's less affected by outliers or anomalies present in the data set. A simple extremely less outlier can affect the entire prediction here. That's why 
